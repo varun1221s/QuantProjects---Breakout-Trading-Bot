@@ -6,7 +6,7 @@ from execution import Execution
 class TradingBot(QCAlgorithm):
 
     def Initialize(self):
-        self.SetStartDate(2019, 1, 1)
+        self.SetStartDate(2000, 1, 1)
         self.SetCash(100000)
         
         # Data resolution
